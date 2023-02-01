@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "80903329564",
+    "project_id": "testalertnoey",
+    "storage_bucket": "testalertnoey.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80903329564:android:eee0b3994ab01de9cf4cd9",
+        "android_client_info": {
+          "package_name": "com.example.noey_test_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80903329564-it331toq3m85cfrb92cktnq7ahdvg8td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALL7iOaONbHA0XQ_yWHBFF7eo1Z-mGLIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80903329564-it331toq3m85cfrb92cktnq7ahdvg8td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80903329564:android:eb4f835bf35d6c92cf4cd9",
+        "android_client_info": {
+          "package_name": "com.example.todlong_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80903329564-it331toq3m85cfrb92cktnq7ahdvg8td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALL7iOaONbHA0XQ_yWHBFF7eo1Z-mGLIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80903329564-it331toq3m85cfrb92cktnq7ahdvg8td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
