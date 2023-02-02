@@ -3,7 +3,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:qr_code_scanner/qr_code_scanner.dart';
 import '../my_style.dart';
 import 'reward.dart';
 import 'receive.dart';
@@ -16,8 +15,6 @@ class MenuScan extends StatefulWidget {
 }
 
 class _MenuScanState extends State<MenuScan>with SingleTickerProviderStateMixin {
-  Barcode? result;
-  QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
   late TabController _controller;
   int _selectedIndex = 2;

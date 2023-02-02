@@ -36,7 +36,7 @@ class _ScanQRPageState extends State<QRViewExample> {
   String? data;
 
   void _importFile() async {
-    /*try{
+    try{
     // FilePickerResult? result = await FilePicker.platform.pickFiles();
     FilePickerResult? result = await FilePicker.platform.pickFiles(allowMultiple: true,
   type: FileType.custom,
@@ -53,7 +53,7 @@ class _ScanQRPageState extends State<QRViewExample> {
     }    
   }catch(e){
     print(e);
-  }*/
+  }
   }
 
   ////////////////////////////////////////////////////
@@ -140,7 +140,7 @@ class _ScanQRPageState extends State<QRViewExample> {
                                   color: Colors.white,
                                 ),
                                 onPressed: () async {
-                                 // _importFile();
+                                  _importFile();
                                 }),
                                 SizedBox(
                 width: 6.0,

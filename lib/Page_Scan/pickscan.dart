@@ -1,12 +1,9 @@
 /*import 'dart:io';
 
 import 'package:flutter/material.dart';
-
 import 'package:flutter_qr_scan/flutter_qr_scan.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
-
-void main() => runApp(Scannnn());
 
 class Scannnn extends StatefulWidget {
   @override
