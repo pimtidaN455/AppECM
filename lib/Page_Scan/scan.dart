@@ -38,7 +38,7 @@ class _ScanQRPageState extends State<QRViewExample> {
   void _importFile() async {
     try{
     // FilePickerResult? result = await FilePicker.platform.pickFiles();
-    FilePickerResult? result = await FilePicker.platform.pickFiles(allowMultiple: true,
+    FilePickerResult? result = await FilePicker.platform.pickFiles(allowMultiple: false,
   type: FileType.custom,
   allowedExtensions: ['jpg','png'],);
     if (result != null) {
@@ -193,10 +193,6 @@ class _ScanQRPageState extends State<QRViewExample> {
     controller!.pauseCamera();
     controller!.resumeCamera();
   }
-
-  /*openBrowserTab() async {
-    await FlutterWebBrowser.openWebPage(url: result!.code.toString());
-  }*/
 
   @override
   void dispose() {
